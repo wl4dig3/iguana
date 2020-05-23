@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    padding: 0.125rem;
+    font-weight: 400;
+    font-size: 3em;
+    letter-spacing: 0.5pt;
+    word-spacing: 2pt;
+}
+.hero-section img{
+    width: 100%;
+}
+
+.centrado{
+    width: 90%;
+    margin: 0 auto;
+    
+    
+}
+section .texto{
+    width: 40%;
+    vertical-align: middle;
+    display: inline-block;
+    font-weight: 300;
+    letter-spacing: 0.5pt;
+    word-spacing: 2pt;
+    text-align: left;
+ 
+}
+
+p{
+    padding: 3rem 2rem 4rem 1rem;
+}
+
+/* .img-iguana{
+    vertical-align: middle;
+    display: inline-block; 
+}*/
+.centrado img{
+    width: 35%;
+    vertical-align: middle;
+    padding-left: 4rem;
+    
+}
+.caracteristicas{
+    background: #1E1A13;
+    width: 90%;
+    text-align: center;
+    padding: 1rem 0;
+    font-weight: 300;
+    
+    
+}
+.subtitulo {
+    font-size: 2em;
+    font-weight: 300;
+    padding: 2rem 0;
+}
+.subtitulo2{
+    padding-top: 0.5rem;
+    font-weight: 300;
+}
+.figura{
+    display: inline-block;
+    padding: 2rem 6rem;
+    margin: 0 auto;
+}
+
+.imagenes{
+    
+    text-align: center; 
+    margin: 4.56rem auto;
+    width: 90%;
+        
+}
+
+.imagenes .iguanas{
+    display: inline-block;
+    width: 30%;
+    text-align: left;
+    margin: 0 -3rem;
+}
+.imagenes img
+{   
+    width: 75%;
+    margin: 0.25rem 0;
+    padding: 1rem 0.5rem;
+    display: inline-block;
+    opacity: 0.5;
+}
+
+.imagenes img:hover{
+    opacity: 1;
+}
+
+footer{
+    background-color: #1E1A13;
+}
+footer .enlace{
+    padding: 2rem;
+    font-size: 1.25em;
+    font-weight: 300;
+    
+}
+a {
+    text-decoration: none;
+    color: #fff;
+    line-height: 1.5em;
+}
